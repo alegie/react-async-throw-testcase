@@ -1,0 +1,5 @@
+// setup enzyme (https://github.com/airbnb/enzyme)
+const enzyme = require('enzyme');
+const Adapter = require('enzyme-adapter-react-16');
+
+enzyme.configure({ adapter: new Adapter() });
